@@ -23,7 +23,7 @@ then
 fi
 
 printf "Fetching the latest wordpress from SVN...\n\n"
-svn co http://core.svn.wordpress.org/tags/3.5 . --ignore-externals
+svn co http://core.svn.wordpress.org/tags/3.5.1 . --ignore-externals
 printf "Done!\n\n"
 
 printf "Creating wp-config.php...\n"
